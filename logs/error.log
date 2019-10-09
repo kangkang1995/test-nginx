@@ -59,3 +59,46 @@
 2019/09/24 15:47:23 [error] 14140#14116: *2 "F:/xiangmu1/test/test-message/src/assets/imagest/index.html" is not found (3: The system cannot find the path specified), client: 10.10.20.186, server: localhost, request: "GET /imagest/ HTTP/1.1", host: "10.10.20.186:8686"
 2019/09/24 15:49:37 [error] 14140#14116: *12 CreateFile() "F:\xiangmu1\test\nginx-1.17.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8686", referrer: "http://localhost:8686/"
 2019/09/24 15:50:29 [notice] 10076#12540: signal process started
+2019/09/25 13:43:16 [error] 14140#14116: *28 CreateFile() "F:\xiangmu1\test\nginx-1.17.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.10.20.186, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.10.20.186:8686", referrer: "http://10.10.20.186:8686/images/left-0.png"
+2019/09/25 13:59:07 [error] 14140#14116: *29 CreateFile() "F:\xiangmu1\test\nginx-1.17.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.10.20.210, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.10.20.186:8686", referrer: "http://10.10.20.186:8686/images/left-0.png"
+2019/09/27 15:29:19 [error] 14140#14116: *36 CreateFile() "F:\xiangmu1\test\nginx-1.17.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.10.20.186, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.10.20.186:8686", referrer: "http://10.10.20.186:8686/images/left-0.png"
+2019/09/27 15:30:49 [error] 14140#14116: *38 CreateFile() "F:/xiangmu1/test/test-message/src/assets/images/720/3840X720_00000.png" failed (3: The system cannot find the path specified), client: 10.10.20.186, server: localhost, request: "GET /images/720/3840X720_00000.png HTTP/1.1", host: "10.10.20.186:8686"
+2019/09/27 15:30:56 [error] 14140#14116: *38 CreateFile() "F:/xiangmu1/test/test-message/src/assets/images/720/3840X720_00000.png" failed (3: The system cannot find the path specified), client: 10.10.20.186, server: localhost, request: "GET /images/720/3840X720_00000.png HTTP/1.1", host: "10.10.20.186:8686"
+2019/09/27 15:31:42 [emerg] 16948#11580: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/27 15:32:02 [emerg] 8264#15300: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/27 15:32:08 [error] 14140#14116: *41 CreateFile() "F:/xiangmu1/test/test-message/src/assets/images/720/3840X720_00000.png" failed (3: The system cannot find the path specified), client: 10.10.20.186, server: localhost, request: "GET /images/720/3840X720_00000.png HTTP/1.1", host: "10.10.20.186:8686"
+2019/09/27 15:34:22 [error] 14140#14116: *42 directory index of "F:\xiangmu1\test\nginx-1.17.3/html/image/" is forbidden, client: 10.10.20.186, server: localhost, request: "GET /image/ HTTP/1.1", host: "10.10.20.186:8686"
+2019/09/27 15:34:27 [emerg] 8020#16968: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/27 15:34:54 [emerg] 7644#10576: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/27 15:34:57 [emerg] 5412#15964: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/27 15:35:00 [error] 14140#14116: *42 directory index of "F:\xiangmu1\test\nginx-1.17.3/html/image/" is forbidden, client: 10.10.20.186, server: localhost, request: "GET /image/ HTTP/1.1", host: "10.10.20.186:8686"
+2019/09/27 15:35:02 [error] 14140#14116: *42 directory index of "F:\xiangmu1\test\nginx-1.17.3/html/image/" is forbidden, client: 10.10.20.186, server: localhost, request: "GET /image/ HTTP/1.1", host: "10.10.20.186:8686"
+2019/09/27 15:35:08 [error] 14140#14116: *42 directory index of "F:\xiangmu1\test\nginx-1.17.3/html/image/" is forbidden, client: 10.10.20.186, server: localhost, request: "GET /image/ HTTP/1.1", host: "10.10.20.186:8686"
+2019/09/29 13:41:12 [emerg] 12092#4520: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 13:42:13 [emerg] 2808#332: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 13:43:30 [emerg] 1208#740: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 13:43:31 [emerg] 10668#4972: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 13:43:31 [emerg] 8056#1884: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 13:43:32 [emerg] 1096#6380: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 13:46:21 [emerg] 1144#8616: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 13:46:46 [emerg] 8888#724: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 13:46:50 [emerg] 10480#1752: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 13:50:29 [emerg] 11496#7116: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 13:50:49 [emerg] 8904#640: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 13:50:59 [emerg] 6664#6356: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 13:56:05 [emerg] 12216#2764: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 13:56:15 [emerg] 4868#3368: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 14:00:20 [emerg] 4936#580: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 14:01:47 [emerg] 8256#4972: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 14:01:50 [emerg] 5308#5304: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 14:03:37 [emerg] 5152#5208: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 14:06:19 [emerg] 11900#11904: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 14:09:13 [emerg] 12076#10544: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 14:09:15 [emerg] 10104#11652: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 14:09:27 [emerg] 5380#7140: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:53
+2019/09/29 14:15:18 [emerg] 9700#9992: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:54
+2019/09/29 14:17:24 [emerg] 2464#10652: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:54
+2019/09/29 14:17:54 [emerg] 10508#4920: unknown directive "//" in F:\xiangmu1\test\nginx-1.17.3/conf/nginx.conf:54
+2019/09/29 14:20:02 [error] 4208#10684: *1 CreateFile() "F:\xiangmu1\test\nginx-1.17.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.10.20.186, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.10.20.186:8686", referrer: "http://10.10.20.186:8686/images/"
+2019/09/29 17:11:15 [error] 4208#10684: *17 CreateFile() "F:\xiangmu1\test\nginx-1.17.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.10.20.186, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.10.20.186:8686", referrer: "http://10.10.20.186:8686/images/720/"
+2019/10/09 10:29:49 [error] 6664#2392: *296 CreateFile() "F:\xiangmu1\test\nginx-1.17.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.10.20.186, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.10.20.186:8686", referrer: "http://10.10.20.186:8686/"
